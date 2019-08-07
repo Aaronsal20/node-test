@@ -1,0 +1,14 @@
+# npm, yarn files
+node_modules/
+/.idea/
+*.iml
+yarn-error.log
+.env
+coverage
+*.sh
+
+# uploads
+public/images/upload
+
+dist
+tmp

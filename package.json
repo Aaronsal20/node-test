@@ -1,0 +1,37 @@
+{
+  "name": "node-test",
+  "version": "0.0.1",
+  "description": "Node Test",
+  "main": "src/server.ts",
+  "author": "Octalogic Tech",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "start": "npx nodemon",
+    "start-alternate": "npx ts-node-dev --respawn --notify=false src/server.ts",
+    "server-kill": "npx kill-port 3010"
+  },
+  "dependencies": {
+    "@types/body-parser": "^1.17.0",
+    "@types/express": "^4.17.0",
+    "@types/jquery": "^3.3.30",
+    "@types/node": "^12.6.8",
+    "body-parser": "^1.19.0",
+    "chalk": "^2.4.2",
+    "cookie-parser": "^1.4.4",
+    "express": "^4.17.1",
+    "nodemon": "^1.19.1",
+    "rimraf": "^2.6.3",
+    "typescript": "^3.5.3"
+  },
+  "devDependencies": {
+    "@types/cookie": "^0.3.3",
+    "prettier": "^1.18.2",
+    "pretty-quick": "^1.11.1",
+    "ts-node": "^8.3.0",
+    "ts-node-dev": "^1.0.0-pre.32",
+    "tslint": "^5.18.0",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-plugin-prettier": "^2.0.1"
+  }
+}

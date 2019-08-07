@@ -1,0 +1,27 @@
+{
+  "extends": ["tslint:latest", "tslint-config-prettier"],
+  "rulesDirectory": ["tslint-plugin-prettier"],
+  "rules": {
+    "ordered-imports": false,
+    "prettier": true,
+    "object-literal-sort-keys": false,
+    "no-console": false,
+    "comment-format": false,
+    "member-access": false,
+    "no-use-before-declare": false,
+    "class-name": false,
+    "variable-name": false,
+    "trailing-comma": true,
+    "no-unused-variable": true,
+    "no-var-requires": true,
+    "import-spacing": true,
+    "only-arrow-functions": false,
+    "curly": false,
+    "no-duplicate-imports": false
+  },
+  "defaultSeverity": "error",
+  "jsRules": {
+    "semicolon": true,
+    "triple-equals": true
+  }
+}
